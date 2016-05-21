@@ -1,0 +1,141 @@
+<!doctype html>
+
+<!-- website designed by Mahesh Ranaweera 
+    date: 2015 | August | 09
+    -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        
+        <title>mi6 | design</title>
+        
+        <!--favicon-->
+        <link rel="icon" type="image/png" href="assets/img/mi6_logo_16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="assets/img/mi6_logo_32.png" sizes="32x32">
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+		
+		<!--AddThis social media icons -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ab35ab0bd02ab6" async="async"></script>
+		
+        <!-- stylesheet -->
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/page.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-lightness/jquery-ui.css">
+		
+        
+        <script type="application/javascript">
+            $(window).load(function() { 
+                $(".loading-wrap").fadeOut("slow");
+            });
+        </script> 
+		
+		<script type="application/javascript">
+            $(window).load(function() { 
+                $("#loaderbg").fadeOut("slow");
+            });
+        </script> 
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menubtn' ).click(function() {
+                    $( '#header' ).toggle()
+                });
+            });
+        </script> 
+        
+        <script type="text/javascript">
+           $(document).ready(function() {
+                $('.next').click(function(){
+                    $('#draggable').animate({
+                        'margin-left' : "-=700px",
+                        grid: [40,0]
+                    });
+                });
+               
+               $('.back').click(function(){
+                    $('#draggable').animate({
+                        'margin-left' : "+=700px",
+                        grid: [40,0]
+                    });
+                });
+           });
+        </script>
+		
+    </head>
+    
+    <body bgcolor="263238" class="body">
+        <!-- loader div -->
+        <div id="loaderbg"></div>
+        
+        <!-- loading animation -->
+        <div class="loading-wrap">
+            <div class="spinner"></div>
+        </div>
+        
+        <!--background -->
+        <div id="bg-web"></div>
+		
+		<div class="bg-black"></div>
+        
+        <!-- grid -->
+        <div id="grid"></div>
+		
+		<!-- content -->
+		
+		<div class="about-wrap">
+			<div class="about-heading">
+				<ab>about</ab>
+			</div>
+			<div class="about-content">
+				<con>Oh! you just clicked about.</con>
+                <p><met> I am Mahesh Ranaweera and this is my blog slash  portfolio</met></p>
+                <p><met> Education: Software Engineering</met></p>
+			</div>
+		</div>
+		
+		<!-- content -->
+        
+        <!-- menu -->
+        <div class="btn-menu-wrap">
+            <div class="menubtn"></div>
+        </div>
+        
+        
+        <!-- header and footer -->
+        <div id="header">
+            <div class="header-btn-wrap">
+                <a href="#" >
+                    <div class="review btn"></div>
+                </a>
+                <a href="#">
+                    <div class="prog btn"></div>
+                </a>
+                <a href="design.html">
+                    <a href="design.html"></a>
+                       <div class="design btn"></div>
+                </a>
+                <a href="blog.html">
+                    <div class="blog btn"></div>
+                </a>
+                <a href="index.html">
+                    <div class="home btn"></div>
+                </a>
+            </div>
+        </div>
+        
+        
+    </body>
+    
+</html>
