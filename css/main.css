@@ -322,7 +322,7 @@ b{
 .content-max{
     width: 1184px;
     height: auto;
-    background-color: #424242;
+    background-color: transparent;
     float: left;
 	padding: 5px;
 	display: block;
