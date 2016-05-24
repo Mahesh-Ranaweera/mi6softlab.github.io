@@ -1,148 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<!-- website designed by Mahesh Ranaweera 
-    date: 2015 | August | 09
-    -->
+<!--Mahesh Ranaweera portfolio website-->
+<html lang="en">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1">
-        
-        <title>mi6 | main</title>
-        
-        <!--favicon-->
-        <link rel="icon" type="image/png" href="assets/img/mi6_logo_16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="assets/img/mi6_logo_32.png" sizes="32x32">
+<head>
+    <title>
 
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-		
-		<!--AddThis social media icons -->
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ab35ab0bd02ab6" async="async"></script>
-		
-        <!-- stylesheet -->
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/page.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-        
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-lightness/jquery-ui.css">
-		
-        <script type="application/javascript">
-            $(window).load(function() { 
-                $(".loading-wrap").fadeOut("slow");
-            });
-        </script> 
-		
-		<script type="application/javascript">
-            $(window).load(function() { 
-                $("#loaderbg").fadeOut("slow");
-            });
-        </script> 
-        
-        <script type="text/javascript">
-            $(document).ready(function(){
-                
-                $('.menubtn' ).click(function() {
-                    $( '#header' ).toggle()
-                });
-            });
-        </script> 
-        
-        <script type="application/javascript">
-            $(window).load(function() { 
-                $("#load").fadeOut("fast"); 
-            });
-        </script>
-        
-        <script type="application/javascript">
-            $(document).ready(function(){
-                $('.video-wrap').bind('contextmenu',function() { return false; });
-            });
-        </script>
-        
-    </head>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
-    <body bgcolor="263238" class="body-page">
-		<!-- loader div -->
-        <div id="loaderbg"></div>
-        
-        <!-- loading animation -->
-        <div class="loading-wrap">
-            <div class="spinner"></div>
-        </div>
-        
-        <!-- grid -->
-        <div id="grid_index"></div>
-        
-        <!--menu btns -->
-        <div class="index-nav-wrap">
-            <a href="blog.html">
-                <div class="nav-btns">
-                    <div class="nav-btn-bg">
-                        <navtxt>Blog</navtext>
-                    </div>
-                    <div class="btn-bg"></div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="nav-btns">
-                    <div class="nav-btn-bg">
-                        <navtxt>Review</navtext>
-                    </div>
-                    <div class="btn-bg"></div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="nav-btns">
-                    <div class="nav-btn-bg">
-                        <navtxt>Programing</navtext>
-                    </div>
-                    <div class="btn-bg"></div>
-                </div>
-            </a>
-            <a href="design.html">
-                <div class="nav-btns">
-                    <div class="nav-btn-bg">
-                        <navtxt>Design</navtext>
-                    </div>
-                    <div class="btn-bg"></div>
-                </div>
-            </a>
-        </div>
-        
-        <!-- Content -->
-		<div class="index-wrap">
-			<div class="video-wrap">
-	                    <div class="video-overlay"></div>
-	                        <video class="video_index" autoplay="autoplay" loop="loop" preload="auto">
-	                            <source src="assets/video/webBG.mp4" type="video/mp4"/>
-	                            <source src="assets/video/webBG.webm" type="video/webm" />
-	                            <source src="assets/video/webBG.ogv" type="video/ogg"/>
-	                        </video>
-                	</div>
-	  	</div>
-		<!-- Content -->
-        
-        
-        <!-- pgheading -->
-        <a href="about.html">
-            <div class="edgelogo">
-                 <div class="logo"></div>
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="assets/image/mi6_logo_16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/image/mi6_logo_32.png" sizes="32x32">
+
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
+
+    <!--robot font-->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet" type="text/css">
+    <!--awesome fonts-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--main css-->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+    <!--boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
+
+    <!-- scripts using particle script from Vincent Garreau-->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="../particles.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+
+<body>
+    <div class="user_wrapper">
+        <div class="logo_wrap"></div>
+        <div class="logo_text_wrap">
+            <div class="name_wrap creame_c">
+                Mahesh Ranaweera
             </div>
-        </a>
-        <div class="pghead">
-            <div class="heading blue">mi6softlab | </div>
-            <div class="heading white">main</div>
+            <div class="descr_wrap">
+                Web Application Developer
+            </div>
+            <div class="task_wrap">
+                <a href="designs.html"><i class="fa fa-picture-o" aria-hidden="true"></i> designs</a>
+                <a href="update.html">
+                    <scratch><i class="fa fa-connectdevelop" aria-hidden="true"></i> apps</scratch>
+                </a>
+                <a href="update.html">
+                    <scratch><i class="fa fa-bookmark-o" aria-hidden="true"></i> blog</scratch>
+                </a>
+            </div>
+            <div class="task_wrap">
+                <a href="update.html">
+                    <scratch><i class="fa fa-code" aria-hidden="true"></i> coding</scratch>
+                </a>
+                <a href="about.html"><i class="fa fa-user" aria-hidden="true"></i> about</a>
+            </div>
         </div>
-		<!-- pgheading -->
-        
-    </body>
-    
+    </div>
+
+
+
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+</body>
+
 </html>

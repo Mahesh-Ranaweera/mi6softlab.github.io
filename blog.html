@@ -1,209 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<!-- website designed by Mahesh Ranaweera 
-    date: 2015 | August | 09
-    -->
-
-<html>
+<!--Mahesh Ranaweera portfolio website-->
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1">
-        
-        <title>mi6 | blog</title>
-        
-        <!--favicon-->
-        <link rel="icon" type="image/png" href="assets/img/mi6_logo_16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="assets/img/mi6_logo_32.png" sizes="32x32">
+        <title>
 
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-		
-		<!--AddThis social media icons -->
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55ab35ab0bd02ab6" async="async"></script>
-		
-        <!-- stylesheet -->
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!--robot font-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet" type="text/css">
+        <!--awesome fonts-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!--main css-->
         <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/page.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-        
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link href="css/pages.css" rel="stylesheet" type="text/css">
 
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-lightness/jquery-ui.css">
-		
-        <script type="application/javascript">
-            $(window).load(function() { 
-                $(".loading-wrap").fadeOut("slow");
-            });
-        </script> 
-		
-        <!--window load transition-->
-		<script type="application/javascript">
-            $(window).load(function() { 
-                $("#loaderbg").fadeOut("slow");
-            });
-        </script> 
-        
-        <!--toggle the page header-->
-        <script type="text/javascript">
-            $(document).ready(function(){
-                
-                $('.menubtn' ).click(function() {
-                    $( '#header' ).toggle()
-                });
-            });
-        </script> 
-        
-        <!--page load transition-->
-        <script type="application/javascript">
-            $(window).load(function() { 
-                $("#load").fadeOut("fast"); 
-            });
-        </script>
-        
+        <!--boostrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
+
     </head>
-    
-    <body bgcolor="263238" class="body-page">
-		<!-- loader div -->
-        <div id="loaderbg"></div>
-        
-        <!-- loading animation -->
-        <div class="loading-wrap">
-            <div class="spinner"></div>
-        </div>
-		
-        <!--background -->
-        <!--<div id="background"></div>-->
-        
-        <!-- grid -->
-        <div id="grid"></div>
-        
-        <!-- Content -->
-        <div class="card-wrap">
-			
-            <div class="card max-width">
-                <div class="head-max">
-                    <div class="type-logo"></div>
-                    <div class="head-title-max">
-                        Mahesh
-                    </div>
-                    <div class="info-text-max">
-                    	Software is free
-                    </div>
-                    <div class="time-text">
-                    	2015 | 08 | 16
-                    </div>
-                </div>
-                <div class="content-max">
-                	<p class="bodytext">
-                		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-						
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-                	</p>
-					
-					<p class="bodytext">
-                		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-						
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-                	</p>
-                </div>
-            </div>
-			
-			<div class="card max-width">
-                <div class="head-max">
-                    <div class="type-logo"></div>
-                    <div class="head-title-max">
-                        Mahesh
-                    </div>
-                    <div class="info-text-max">
-                    	Software is free
-                    </div>
-                    <div class="time-text">
-                    	2015 | 08 | 16
-                    </div>
-                </div>
-                <div class="content-max">
-                	<p class="bodytext">
-                		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-						
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-                	</p>
-					
-					<p class="bodytext">
-                		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-						
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-                	</p>
-                </div>
-            </div>
-			
-        </div>
-        
-        
+
+    <body>
         <!-- pgheading -->
         <a href="about.html">
             <div class="edgelogo">
-                 <div class="logo"></div>
+                <div class="logo"></div>
             </div>
         </a>
         <div class="pghead">
             <div class="heading blue">mi6softlab | </div>
-            <div class="heading white">blog</div>
+            <div class="heading creame_c">blog</div>
         </div>
         
-        
-        <!-- menu -->
-        <div class="btn-menu-wrap">
-            <div class="menubtn"></div>
-        </div>
+        <!--blog content-->
+        <div class="page_wrapper">
             
-        
-        <!-- header and footer -->
-        <div id="header">
-            <div class="header-btn-wrap">
-                <a href="#" >
-                    <div class="review btn"></div>
-                </a>
-                <a href="#">
-                    <div class="prog btn"></div>
-                </a>
-                <a href="design.html">
-                    <div class="design btn"></div>
-                </a>
-                <a href="blog.html">
-                    <div class="blog btn"></div>
-                </a>
-                <a href="index.html">
-                    <div class="home btn"></div>
-                </a>
+            <!--post with a image-->
+            <div class="blog_post">
+                <div class="blog_img_wrapper">
+                    <div class="post_heading_wrap">
+                        <div class="post_heading">
+                            heading
+                        </div>
+                    </div>
+                    <div class="post_image">
+                        <img src="assets/image/wallhaven-239462.jpg" width="100%" height="100%">
+                    </div>
+                </div>
+                
+                <div class="blog_post_text">asaasasasdasd asdasd assssss aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa
+                </div>
             </div>
+            
+            <div class="blog_spacer"></div>
+            
+            
         </div>
-        
-        
-        
-        <div id="footer">
-        	<div class="social_block">
-				<a href="https://www.facebook.com/pages/Mi6softlab/475257169200851">
-					<div class="facebook sbtn"></div>
-				</a>
-				<a href="https://www.youtube.com/channel/UCmBeg1qkhRQp97l-gV7X9rA">
-					<div class="youtube sbtn"></div>
-				</a>
-				<a href="http://mi6softlab.deviantart.com/">
-					<div class="devian sbtn"></div>
-				</a>
-				<a href="https://plus.google.com/101582065290715594743/videos">
-					<div class="gplus sbtn"></div>
-				</a>
-				<a href="https://vimeo.com/mi6softlab">
-					<div class="vimeo sbtn"></div>
-				</a>
-        	</div>
-        </div>
-        
+
+
     </body>
-    
 </html>
