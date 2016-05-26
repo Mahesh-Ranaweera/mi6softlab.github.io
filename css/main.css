@@ -463,3 +463,27 @@ scratch {
     font-style: oblique;
     color: dimgray;
 }
+
+
+/*styling a tags*/
+
+a{
+    color: #2196f3;
+    opacity: 0.82;
+}
+
+a.link{
+    color: #2196f3;
+    text-decoration: none;
+}
+
+a.visited{
+    color: #2196f3;
+    text-decoration: none;
+}
+
+a.hover{
+    color: #2196f3;
+    opacity: 1;
+    text-decoration: underline;
+}
