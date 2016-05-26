@@ -106,13 +106,6 @@ body,html{
 }
 
 
-
-
-
-
-
-
-
 canvas {
     display: block;
     vertical-align: bottom;
@@ -299,6 +292,7 @@ canvas {
     margin-left: 10px;
     margin-right: 10px;
     position: fixed;
+    display: block;
     top: 0;
     left: 0;
     width: 55px;
@@ -315,9 +309,8 @@ canvas {
     width: 40px;
     height: 40px;
     background: url(../assets/svg/mi6_logo.svg);
-}.edgelogo {
-    
 }
+
 
 .pghead {
     top: 0;
@@ -326,7 +319,7 @@ canvas {
     width: 400px;
     position: fixed;
     display: block;
-    z-index: 1500;
+    z-index: 20000;
     margin-left: 75px;
 }
 
@@ -466,12 +459,10 @@ scratch {
 
 
 /*styling a tags*/
-
 a{
     color: #2196f3;
-    opacity: 0.82;
     text-decoration: none;
-}
+} 
 
 a.link{
     color: #2196f3;
