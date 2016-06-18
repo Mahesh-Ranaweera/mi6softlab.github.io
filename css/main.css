@@ -239,7 +239,7 @@ canvas {
 }
 
 .social_block{
-    width: 240px;
+    width: 280px;
     height: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -267,6 +267,10 @@ canvas {
 
 .gplus{
     background: url(../assets/svg/gplus_icon.svg);
+}
+
+.codepen{
+    background: url(../assets/svg/code-pen_icon.svg);
 }
 .creame_c {
     color: #eee;
